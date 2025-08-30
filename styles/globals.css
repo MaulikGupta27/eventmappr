@@ -609,6 +609,16 @@ label {
     transform: translateY(0px);
   }
 } 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
 
 .gps-button-div{
     position: absolute;
